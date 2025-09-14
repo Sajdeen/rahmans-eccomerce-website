@@ -26,12 +26,21 @@ html,body{
     gap: 20px;
 }
 .container{
-    background-color: #cd5858;
-   max-width: 80vw;
-   display: flex;
-    margin: 0 auto;
+    background-color: #fff;   /* Myntra ka white nav bar */
+  width: 100%;
+  margin: 0;
+  padding: 0 20px;
+  border-bottom: 1px solid #e0e0e0;
 }
 nav{
+      width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 80px;
+}
+.right ul{
+    list-style: none;
     display: flex;
     gap: 20px;
 }
