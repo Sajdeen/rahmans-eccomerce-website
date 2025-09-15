@@ -5,6 +5,7 @@ html,body{
 }
 .left{
     display: flex;
+    margin-left: 0;
 }
 .left img{
     width: 40px;
@@ -17,23 +18,23 @@ html,body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 20px;
+    padding:8px 20px;
 }
 
 .left ul{
     list-style: none;
     display: flex;
-    gap: 20px;
+    gap: 15px;
 }
 .container{
-    background-color: #fff;   /* Myntra ka white nav bar */
+    background-color: #fff;   
   width: 100%;
   margin: 0;
   padding: 0 20px;
   border-bottom: 1px solid #e0e0e0;
 }
 nav{
-      width: 100%;
+     max-width: 1020px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -41,6 +42,10 @@ nav{
 }
 .right ul{
     list-style: none;
+    display: flex;
+    gap: 20px;
+}
+.right ul li{
     display: flex;
     gap: 20px;
 }
