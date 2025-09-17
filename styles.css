@@ -44,7 +44,9 @@ nav{
     border-radius: 5px;
     padding: 5px 10px;
     width: 100%;
-  margin-right: 15px;
+  margin-right: -150px;
+  border-radius:4px ;
+  position: relative;
    
 }
 .search-icon-img{
@@ -52,6 +54,7 @@ nav{
     height: 15px;
     margin-left: 10px;
     margin-top: 2px;
+    line-height: 40px;
     padding: 10px;
     opacity: 0.5;
     }
@@ -90,17 +93,26 @@ nav{
   border-bottom: 2px solid crimson;
 }
 
-.new-badge{
-  color: crimson;
+.studio{
+  position: relative;
+}
+.studio span{
+  position: absolute;
+  bottom: 0;
+  color: rgb(236, 32, 32);
+  top: -5px;
+  left: 55px;
+  font-size: 11px;
   font-weight: bold;
-  font-size: 10px;
 }
 
 .right {
       display: flex;
       align-items: center;
       margin-left: auto;
-      left: -130px;
+    text-align: center;
+      justify-content: center;
+      margin-right: 10px;
     }
 
     .right ul {
@@ -109,7 +121,8 @@ nav{
       gap: 40px;
       margin: 0;
       padding: 0;
-           left: -130px
+      margin: 0 10px;
+
     }
 
     .right ul li {
@@ -121,6 +134,7 @@ nav{
       cursor: pointer;
       color: #282c3f;
       user-select: none;
+
     }
 
 
